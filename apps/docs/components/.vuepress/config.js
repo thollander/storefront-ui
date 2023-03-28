@@ -111,6 +111,15 @@ module.exports = {
         `window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', '${GTAG}');`,
       ],
     ],
+    ['meta', { property: 'og:image', content: `https://docs.storefrontui.io/v2/og-image.png` }],
+    ['meta', { property: 'og:title', content: `Storefront UI Docs` }],
+    [
+      'meta',
+      {
+        property: 'og:description',
+        content: `Build fast, accessible, and beautiful storefronts quickly with Storefront UI`,
+      },
+    ],
   ],
   patterns: ['**/*.md', '**/*.vue', '!components/**/*.md', '!blocks/**/*.md', '!hooks/**/*.md'], // ignore components folder
   patterns: [
